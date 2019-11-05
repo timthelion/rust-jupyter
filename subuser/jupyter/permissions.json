@@ -1,0 +1,13 @@
+{
+ "description": "Evcxr rust jupyter notebook.",
+ "maintainer": "Timothy Hobbs <timothyhobbs@seznam.cz>",
+ "executable": "/bin/bash",
+ "basic-common-permissions": {
+  "stateful-home": true,
+  "inherit-locale": true,
+  "inherit-timezone": true
+ },
+ "x11": true,
+ "access-working-directory": true,
+ "allow-network-access": true
+}

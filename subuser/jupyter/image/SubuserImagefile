@@ -1,0 +1,6 @@
+FROM rust
+RUN apt-get update ; apt-get install -y firefox-esr libzmq3-dev jupyter-notebook
+RUN apt-get update ; apt-get install -y graphviz
+RUN cargo install evcxr_jupyter --no-default-features
+RUN cargo install sccache
+RUN chmod 777 -R /usr/local/cargo/
