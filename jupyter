@@ -1,0 +1,2 @@
+#!/bin/bash
+SUBUSER_EXTRA_DOCKER_ARGS=--shm-size=2g subuser dev jupyter
